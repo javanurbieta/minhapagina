@@ -1,0 +1,135 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lora", serif;
+}
+.tudo {
+  background-color: #2e2d4c;
+  font-family: "Lora", serif;
+  padding: 2px;
+  background-attachment: fixed;
+}
+.titulo--fonte {
+  font-family: "Exo 2", sans-serif;
+  font-size: 1.9rem;
+}
+.topo {
+  width: 50%;
+  background-color: white;
+  margin: auto;
+  padding: 50px;
+  border-radius: 10px;
+}
+.cotainer {
+  line-height: 3rem;
+  text-align: center;
+  color: white;
+  padding: 50px;
+  margin: 10px;
+  background-attachment: fixed;
+}
+.rodape {
+  text-align: center;
+  color: black;
+}
+.habilidades label {
+  width: 280px;
+  display: inline-block;
+}
+.habilidades progress {
+  accent-color: #80809e;
+}
+.fonte--media {
+  font-size: 1.7rem;
+  line-height: 3rem;
+}
+
+.footer {
+  position: relative;
+  padding: 120px;
+  background-color: #1b1a2f;
+  color: #fff;
+  text-align: center;
+  margin: 70px auto 0;
+}
+.bnt-inicio {
+  font-size: 3rem;
+  color: black;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.3;
+}
+.bnt-inicio:hover {
+  opacity: 1;
+}
+.logotipo {
+  color: #2e2d4c;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  font-size: 1.8rem;
+  padding-top: 10px;
+  z-index: 1;
+}
+.logomarca.fundo {
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin-right: 50%;
+  margin-top: -50px;
+  transform: translateX(50%) rotate(45deg);
+}
+h2 {
+  padding: 20px;
+}
+h1 {
+  font-family: "Exo 2", sans-serif;
+}
+.guia {
+  font-family: "Lora", serif;
+  font-size: 0.8rem;
+  letter-spacing: 0rem;
+}
+@media (max-width: 720px) {
+  body {
+    position: absolute;
+    font-size: 0.5rem;
+  }
+  .topo {
+    width: 50%;
+    background-color: white;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10px;
+    font-size: 0.3rem;
+  }
+  img {
+    width: 150px;
+  }
+  .habilidades label {
+    width: 50px;
+    display: inline-block;
+  }
+  .habilidades progress {
+    accent-color: #80809e;
+  }
+  .guia {
+    font-size: 0.2rem;
+  }
+  .fonte--media {
+    font-size: 0.7rem;
+  }
+  .titulo--fonte {
+    font-size: 0.9rem;
+  }
+}
